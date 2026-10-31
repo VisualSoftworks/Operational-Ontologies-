@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.5.9.2 (Windows)"/>
+	<meta name="created" content="2026-10-30T15:10:42.204000000"/>
+	<meta name="changed" content="2026-10-30T17:10:58.248000000"/>
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin: 0.79in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		h1 { margin-bottom: 0.08in; background: transparent; page-break-after: avoid }
+		h1.western { font-family: "Liberation Serif", serif; font-size: 24pt; font-weight: bold }
+		h1.cjk { font-family: "NSimSun"; font-size: 24pt; font-weight: bold }
+		h1.ctl { font-family: "Lucida Sans"; font-size: 24pt; font-weight: bold }
+		h2 { margin-top: 0.14in; margin-bottom: 0.08in; background: transparent; page-break-after: avoid }
+		h2.western { font-family: "Liberation Serif", serif; font-size: 18pt; font-weight: bold }
+		h2.cjk { font-family: "NSimSun"; font-size: 18pt; font-weight: bold }
+		h2.ctl { font-family: "Lucida Sans"; font-size: 18pt; font-weight: bold }
+		h3 { margin-top: 0.1in; margin-bottom: 0.08in; background: transparent; page-break-after: avoid }
+		h3.western { font-family: "Liberation Serif", serif; font-size: 14pt; font-weight: bold }
+		h3.cjk { font-family: "NSimSun"; font-size: 14pt; font-weight: bold }
+		h3.ctl { font-family: "Lucida Sans"; font-size: 14pt; font-weight: bold }
+		strong { font-weight: bold }
+		em { font-style: italic }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><h1 class="western">
+Operational Ontologies</h1>
+<h2 class="western">Prototype White Paper</h2>
+<p><strong>Version:</strong> 0.1 — Initial Structural Draft<br/>
+<strong>Status:</strong>
+Working Draft for ONC Interpretation<br/>
+<strong>Date:</strong>
+October 2026<br/>
+<strong>Website:</strong> OperationalOntologies.com</p>
+<hr/>
+
+<h1 class="western">1. Purpose and Vision</h1>
+<p>OperationalOntologies.com is a resource for understanding,
+exploring, developing, and using operational ontologies.</p>
+<p>The site will present operational ontology as more than a method
+of organizing information. An operational ontology can describe the
+entities, relationships, constraints, processes, state transitions,
+and behaviors that allow an application or system to operate.</p>
+<p>The site will expose both the ideas behind operational ontology
+and examples of its practical application. It will include
+ontologies, meta-ontologies, technical white papers, articles,
+tutorials, demonstrations, and related materials.</p>
+<p>The site should accommodate a range of approaches, from small,
+purpose-specific ad hoc ontologies to large, organically evolving
+systems and formally governed meta-ontological architectures.</p>
+<p>The purpose of this initial white paper is to establish the site's
+structure, content model, navigation, and presentation requirements.</p>
+<h1 class="western">2. Governing Principle: The White Paper Is the
+Source of Truth</h1>
+<p>This white paper is the authoritative specification for
+OperationalOntologies.com.</p>
+<p>The website is to be interpreted and generated from this document
+by the ONC ontology and its associated execution process.</p>
+<p>The governing rules are:</p>
+<ol>
+	<li><p>The white paper defines the website.</p>
+	<li><p>The website is a generated implementation of the white paper.</p>
+	<li><p>Changes to the website are made by changing this white paper.</p>
+	<li><p>The ONC process interprets the revised white paper and
+	regenerates the website.</p>
+	<li><p>Generated HTML, CSS, and JavaScript are implementation
+	artifacts, not independent sources of authority.</p>
+	<li><p>Direct modifications to generated website files are not part
+	of the normal maintenance process.</p>
+</ol>
+<p>No website feature, content change, navigation change, or design
+change should become authoritative unless it is represented in this
+white paper.</p>
+<p>This establishes a single-source-of-truth model and prevents the
+specification and implementation from drifting apart.</p>
+<h1 class="western">3. Site Objectives</h1>
+<p>The website should:</p>
+<ul>
+	<li><p>Explain operational ontology and its underlying concepts.</p>
+	<li><p>Demonstrate how ontologies can function as operational
+	structures rather than merely descriptive documents.</p>
+	<li><p>Present a diverse collection of actual ontology examples.</p>
+	<li><p>Explain the distinction between ad hoc ontologies and
+	meta-ontology-governed systems.</p>
+	<li><p>Provide tutorials and practical guidance.</p>
+	<li><p>Publish technical articles and white papers.</p>
+	<li><p>Make the relationships between related ontologies,
+	methodologies, and architectural approaches understandable.</p>
+	<li><p>Provide access to downloadable or externally hosted ontology
+	artifacts when those resources become available.</p>
+	<li><p>Grow organically as new ontologies, applications, and ideas
+	are developed.</p>
+</ul>
+<p>The site should be informative without becoming unnecessarily
+academic. Technical depth should be available without making the
+initial experience inaccessible.</p>
+<h1 class="western">4. Content and Production Model</h1>
+<p>The site will contain several kinds of productions. A production
+is a distinct body of material presented to visitors. Productions may
+be organized into collections, linked to other productions, or
+presented as standalone resources.</p>
+<p>The following production types are established as the initial
+working model.</p>
+<h2 class="western">4.1 Ontologies</h2>
+<p>An ontology presentation describes an actual ontology, its
+purpose, structure, capabilities, and intended operation.</p>
+<p>An ontology presentation may include:</p>
+<ul>
+	<li><p>Name and version.</p>
+	<li><p>Classification or general type.</p>
+	<li><p>Purpose and scope.</p>
+	<li><p>Problem or application domain.</p>
+	<li><p>Principal concepts and structures.</p>
+	<li><p>Entities and relationships.</p>
+	<li><p>Constraints and rules.</p>
+	<li><p>Processes and state transitions.</p>
+	<li><p>Operational behavior.</p>
+	<li><p>Examples of use.</p>
+	<li><p>Limitations and known unresolved areas.</p>
+	<li><p>Related ontologies and methodologies.</p>
+	<li><p>Artifact availability.</p>
+</ul>
+<p>The site should distinguish between an ontology's descriptive
+presentation and the ontology artifact itself. Where available,
+visitors should eventually be able to access the actual artifact.</p>
+<h2 class="western">4.2 Meta-Ontologies and Architectural Frameworks</h2>
+<p>These productions describe systems that govern, construct,
+validate, or coordinate other ontologies.</p>
+<p>They may define standards, structural rules, execution models,
+governance mechanisms, serialization methods, or lifecycle
+procedures.</p>
+<p>Meta-ontologies should be presented distinctly from ordinary
+application ontologies, while allowing visitors to follow their
+relationships.</p>
+<h2 class="western">4.3 Articles</h2>
+<p>Articles explain concepts, developments, observations, arguments,
+and applications related to operational ontology.</p>
+<p>They may be introductory, conceptual, technical, comparative, or
+exploratory.</p>
+<p>An article should be independently readable but may link to
+ontology presentations, tutorials, and white papers.</p>
+<h2 class="western">4.4 Tutorials</h2>
+<p>Tutorials teach a process or capability.</p>
+<p>They should be organized around an identifiable learning objective
+and may include:</p>
+<ul>
+	<li><p>Prerequisites.</p>
+	<li><p>Required ontology or artifact.</p>
+	<li><p>Step-by-step instructions.</p>
+	<li><p>Examples.</p>
+	<li><p>Expected results.</p>
+	<li><p>Common problems.</p>
+	<li><p>Further reading.</p>
+</ul>
+<p>Tutorials should favor practical understanding over abstract
+exposition.</p>
+<h2 class="western">4.5 White Papers and Technical Documents</h2>
+<p>These are substantial documents defining a methodology,
+architecture, system, or technical proposal.</p>
+<p>They may be authoritative specifications for their own subjects,
+but they do not supersede this website white paper as the authority
+for the website itself.</p>
+<h2 class="western">4.6 Demonstrations and Worked Examples</h2>
+<p>Demonstrations show an ontology or methodology in operation.</p>
+<p>They may include sample sessions, worked applications,
+walkthroughs, example inputs and outputs, or interactive experiences.</p>
+<p>A demonstration should identify which aspects are actual
+implemented behavior and which are illustrative examples.</p>
+<h2 class="western">4.7 Reference Materials</h2>
+<p>Reference materials provide supporting information such as
+terminology, specifications, schemas, technical definitions, and
+related resources.</p>
+<p>These may be standalone productions or supporting components of
+another production.</p>
+<h1 class="western">5. The Menus</h1>
+<p>This section is the authoritative definition of the website's
+navigation system.</p>
+<p>The Menus section defines where content is found and how visitors
+move through the site. It does not duplicate the full content
+definitions, which are maintained in their respective sections of
+this white paper.</p>
+<p>Every menu entry should refer to an authoritative content
+definition or destination elsewhere in the specification.</p>
+<p>Menu entries should have stable identifiers independent of their
+visible labels.</p>
+<h2 class="western">5.1 Primary Navigation</h2>
+<p>The initial proposed primary navigation is:</p>
+<ol>
+	<li><p>Home</p>
+	<li><p>Concepts</p>
+	<li><p>Ontologies</p>
+	<li><p>Articles</p>
+	<li><p>Tutorials</p>
+	<li><p>White Papers</p>
+	<li><p>About</p>
+</ol>
+<p>This is a provisional structure for the first generated prototype.
+The exact labels, ordering, and grouping remain subject to review
+after the initial ONC interpretation.</p>
+<h2 class="western">5.2 Home</h2>
+<p><strong>Purpose:</strong> Introduce OperationalOntologies.com and
+provide visitors with a clear starting point.</p>
+<p>The Home destination should include:</p>
+<ul>
+	<li><p>A concise explanation of operational ontology.</p>
+	<li><p>The central purpose of the site.</p>
+	<li><p>A brief introduction to the major areas of the site.</p>
+	<li><p>Selected ontology examples.</p>
+	<li><p>Selected articles or tutorials.</p>
+	<li><p>Clear paths into the major content collections.</p>
+</ul>
+<p>Detailed content is defined in Section 6.</p>
+<h2 class="western">5.3 Concepts</h2>
+<p><strong>Purpose:</strong> Explain the principles and ideas
+underlying operational ontology.</p>
+<p>Initial subject areas may include:</p>
+<ul>
+	<li><p>What is an operational ontology?</p>
+	<li><p>Ontology as an operational structure.</p>
+	<li><p>The natural-language bottleneck.</p>
+	<li><p>Ontology-backed applications.</p>
+	<li><p>Ad hoc and meta-ontology-governed approaches.</p>
+	<li><p>Zero-Doc Intelligence.</p>
+	<li><p>Ontological Artifact Serialization.</p>
+	<li><p>Organic ontology evolution.</p>
+</ul>
+<p>The Concepts destination is a collection of explanatory material.
+Individual subjects may eventually become standalone articles or
+reference productions.</p>
+<p>Detailed content is defined in Section 7.</p>
+<h2 class="western">5.4 Ontologies</h2>
+<p><strong>Purpose:</strong> Provide access to the ontology catalog.</p>
+<p>The catalog should distinguish among different kinds of ontology
+without prematurely imposing a rigid classification system.</p>
+<p>Initial groupings:</p>
+<ul>
+	<li><p>Application and domain ontologies.</p>
+	<li><p>Large or integrated operational ontologies.</p>
+	<li><p>Meta-ontologies and architectural frameworks.</p>
+	<li><p>Other ontology examples.</p>
+</ul>
+<p>Initial ontology entries include:</p>
+<ul>
+	<li><p>MrChef — Chef Assistant Ontology.</p>
+	<li><p>MIRROR — Maintaining a Reflective Mindset in a Reactive
+	World.</p>
+	<li><p>MOSS — Meta Ontological Structural Substrate.</p>
+	<li><p>Additional ontology examples to be added.</p>
+</ul>
+<p>The catalog should support individual ontology presentations and
+relationships between related works.</p>
+<p>Detailed content is defined in Section 8.</p>
+<h2 class="western">5.5 Articles</h2>
+<p><strong>Purpose:</strong> Provide access to conceptual, technical,
+and exploratory writing.</p>
+<p>Articles may be organized by subject or relationship to an
+ontology. The organization should remain flexible as the collection
+grows.</p>
+<p>Detailed content is defined in Section 9.</p>
+<h2 class="western">5.6 Tutorials</h2>
+<p><strong>Purpose:</strong> Provide practical instruction in
+ontology development, interpretation, use, and application.</p>
+<p>Tutorials may be associated with specific ontology examples or may
+address general techniques.</p>
+<p>Detailed content is defined in Section 10.</p>
+<h2 class="western">5.7 White Papers</h2>
+<p><strong>Purpose:</strong> Provide access to substantial technical
+and architectural documents.</p>
+<p>Initial materials include:</p>
+<ul>
+	<li><p>The Evolution of Operational Ontology.</p>
+	<li><p>MOSS technical white paper.</p>
+	<li><p>Ontological Artifact Serialization.</p>
+	<li><p>OWNC: Ontological Web Native Content.</p>
+</ul>
+<p>These documents should be presented with their own versions and
+status information.</p>
+<p>Detailed content is defined in Section 11.</p>
+<h2 class="western">5.8 About</h2>
+<p><strong>Purpose:</strong> Explain the purpose, scope, and
+development of OperationalOntologies.com.</p>
+<p>This section may include the site's mission, authorship, contact
+information, and background.</p>
+<p>Some of these details remain to be supplied.</p>
+<p>Detailed content is defined in Section 12.</p>
+<h2 class="western">5.9 Navigation Behavior</h2>
+<p>The navigation system should:</p>
+<ul>
+	<li><p>Be consistent across all pages.</p>
+	<li><p>Make the visitor's current location understandable.</p>
+	<li><p>Support navigation between parent collections and individual
+	productions.</p>
+	<li><p>Work on desktop and mobile screens.</p>
+	<li><p>Support keyboard navigation.</p>
+	<li><p>Provide clear focus indicators.</p>
+	<li><p>Avoid unnecessary navigation depth.</p>
+	<li><p>Preserve stable destinations when visible menu labels change.</p>
+</ul>
+<p>The implementation should use appropriate responsive navigation
+behavior. The precise visual treatment may be determined during
+initial generation, subject to this white paper's requirements.</p>
+<h1 class="western">6. Landing Page Structure</h1>
+<p>The landing page is the primary entry point to
+OperationalOntologies.com. It should introduce the site's purpose,
+communicate its central ideas, and provide visitors with clear paths
+to explore its productions.</p>
+<p>The landing page should be more than a directory of links. It
+should establish a coherent understanding of the relationship between
+operational ontology, the development of ontology-driven systems, and
+their practical applications.</p>
+<h2 class="western">6.1 Introduction</h2>
+<p>The opening section should identify OperationalOntologies.com and
+briefly explain its purpose.</p>
+<p>It should communicate that the site explores ontologies as
+structured representations of knowledge, systems, processes,
+relationships, constraints, and behavior.</p>
+<p>The introduction should be accessible to visitors who are
+unfamiliar with ontology while remaining meaningful to technically
+experienced readers.</p>
+<h2 class="western">6.2 Central Idea</h2>
+<p>This section should explain the progression from conceptual
+understanding to structured representation and practical use.</p>
+<p>The initial presentation should introduce three connected
+elements:</p>
+<ul>
+	<li><p><strong>Ideas and Specifications:</strong> White papers,
+	research, concepts, methods, and requirements that establish the
+	human-authored foundation.</p>
+	<li><p><strong>Ontologies:</strong> Structured representations of
+	concepts, entities, relationships, rules, constraints, processes,
+	and behavior.</p>
+	<li><p><strong>Applications and Web Experiences:</strong> Websites,
+	tools, demonstrations, tutorials, and other experiences built from
+	or informed by ontologies.</p>
+</ul>
+<p>This progression is an organizing concept for the site. It should
+not imply that every ontology must originate from a white paper or
+that every ontology must produce a website.</p>
+<h2 class="western">6.3 Featured Productions</h2>
+<p>The landing page should present a selected group of productions
+from the site's catalog.</p>
+<p>Featured items may include:</p>
+<ul>
+	<li><p>Application ontologies.</p>
+	<li><p>Meta-ontologies and architectural frameworks.</p>
+	<li><p>Technical white papers.</p>
+	<li><p>Articles.</p>
+	<li><p>Tutorials.</p>
+	<li><p>Demonstrations.</p>
+</ul>
+<p>Featured productions should be selected and ordered through this
+white paper. The implementation should not permanently hardcode the
+featured collection independently of the specification.</p>
+<h2 class="western">6.4 Explore the Site</h2>
+<p>The landing page should provide clear entry points into the
+principal site collections:</p>
+<ul>
+	<li><p>Concepts.</p>
+	<li><p>Ontologies.</p>
+	<li><p>Articles.</p>
+	<li><p>Tutorials.</p>
+	<li><p>White Papers.</p>
+	<li><p>Demonstrations and other productions as they become
+	available.</p>
+</ul>
+<p>These entry points should correspond to the authoritative
+navigation definitions in Section 5.</p>
+<h2 class="western">6.5 The Range of Approaches</h2>
+<p>The landing page should communicate that the site accommodates
+different approaches to ontology development.</p>
+<p>These include small purpose-specific ontologies, large organically
+evolving systems, and formally governed meta-ontological
+architectures.</p>
+<p>No single approach should be presented as the exclusive model for
+all applications.</p>
+<h2 class="western">6.6 Recent and New Material</h2>
+<p>The landing page may include recently added or updated
+productions.</p>
+<p>Where this information is obtained from external content
+repositories, the implementation should use the content-discovery
+mechanisms defined in the external content architecture.</p>
+<h2 class="western">6.7 Landing Page Governance</h2>
+<p>The landing page's content, section order, featured productions,
+and presentation requirements are governed by this white paper.</p>
+<p>The landing page is generated by the ONC process and must not
+become an independently maintained implementation.</p>
+<h1 class="western"><br/>
+<br/>
+
+</h1>
+<h1 class="western">6B. Home Page Content</h1>
+<p>The Home page should establish the site's identity and make its
+purpose immediately understandable.</p>
+<p>It should not attempt to contain the entire site's educational
+content.</p>
+<p>Its principal functions are:</p>
+<ol>
+	<li><p>Introduce operational ontology.</p>
+	<li><p>Explain what makes an ontology operational.</p>
+	<li><p>Present the range of material available.</p>
+	<li><p>Direct visitors to representative examples.</p>
+	<li><p>Encourage exploration.</p>
+</ol>
+<p>The initial presentation should include selected examples from
+different parts of the ontology landscape, rather than presenting
+only one kind of ontology.</p>
+<p>The Home page should be modular so that featured productions can
+be changed through this white paper.</p>
+<h1 class="western">7. Concepts Content</h1>
+<p>The Concepts section provides the explanatory foundation of the
+site.</p>
+<p>Its purpose is to give visitors the vocabulary and conceptual
+framework necessary to understand the productions presented
+elsewhere.</p>
+<p>Initial topics include:</p>
+<ul>
+	<li><p>The evolution of ontology from philosophical and descriptive
+	uses toward operational applications.</p>
+	<li><p>Operational ontology as a machine-readable representation of
+	entities, relationships, constraints, and state transitions.</p>
+	<li><p>The limitations of repeatedly expressing application
+	structure through natural-language prompts.</p>
+	<li><p>Ontologies as semantic structures supporting application
+	behavior.</p>
+	<li><p>The distinction between application ontology and
+	meta-ontology.</p>
+	<li><p>Small ad hoc, large ad hoc, and meta-ontology-governed
+	approaches.</p>
+	<li><p>Zero-Doc Intelligence and the role of an authoritative
+	ontology.</p>
+	<li><p>Ontological Artifact Serialization and persistent application
+	structure.</p>
+	<li><p>Organic ontology evolution.</p>
+</ul>
+<p>The paper titled <em>The Evolution of Operational Ontology: Moving
+Beyond the Natural Language Bottleneck and Embracing Zero-Doc
+Intelligence</em> is an initial source for this section.</p>
+<p>The Concepts section should not simply reproduce the entire white
+paper. It should provide accessible explanations and links to more
+substantial treatments.</p>
+<h1 class="western">8. Ontology Catalog</h1>
+<p>The ontology catalog is one of the central components of the
+website.</p>
+<p>It should present actual ontologies as distinct works, not merely
+as examples mentioned in articles.</p>
+<p>Each ontology should have an individual presentation.</p>
+<h2 class="western">8.1 Ontology Presentation Structure</h2>
+<p>The initial standard for an ontology presentation is:</p>
+<ol>
+	<li><p>Name and version.</p>
+	<li><p>Short description.</p>
+	<li><p>Classification.</p>
+	<li><p>Purpose.</p>
+	<li><p>Scope.</p>
+	<li><p>Architecture and principal components.</p>
+	<li><p>Operational model.</p>
+	<li><p>Important constraints and rules.</p>
+	<li><p>Example applications or demonstrations.</p>
+	<li><p>Limitations and unresolved matters.</p>
+	<li><p>Related productions.</p>
+	<li><p>Artifact access, when available.</p>
+</ol>
+<p>Not every ontology will have information for every field. Missing
+information should not be fabricated.</p>
+<p>The presentation should preserve the actual terminology and
+distinctions used by the ontology's author.</p>
+<h2 class="western">8.2 Initial Catalog Entries</h2>
+<h3 class="western">MrChef — Chef Assistant Ontology</h3>
+<p><strong>Classification:</strong> Large operational application
+ontology.</p>
+<p>MrChef is a cooking assistant designed to help users produce meals
+using ingredients they have available, ingredients they can acquire,
+or a combination of both.</p>
+<p>Its major capabilities include:</p>
+<ul>
+	<li><p>Pantry intelligence.</p>
+	<li><p>Menu generation.</p>
+	<li><p>Cooking feasibility assessment.</p>
+	<li><p>Shopping lists and equipment requirements.</p>
+	<li><p>Cooking techniques and substitutions.</p>
+	<li><p>Live step-by-step coaching.</p>
+	<li><p>Sensory checkpoints.</p>
+	<li><p>Recovery actions.</p>
+	<li><p>Session memory.</p>
+	<li><p>Food safety constraints.</p>
+</ul>
+<p>Its distinctive approach is coaching rather than simply providing
+a recipe. It uses sensory observations and user confirmation to guide
+the cooking process.</p>
+<p>The initial presentation should include its worked Herb Rice Pilaf
+example.</p>
+<h3 class="western">MIRROR — Maintaining a Reflective Mindset in a
+Reactive World</h3>
+<p><strong>Classification:</strong> Open operational ontology for
+reflective conversational intelligence.</p>
+<p>MIRROR governs the structure and pacing of reflective
+conversation.</p>
+<p>Its major features include:</p>
+<ul>
+	<li><p>One-thought-per-turn interaction.</p>
+	<li><p>Probe-driven reflection.</p>
+	<li><p>Tentative pattern recognition.</p>
+	<li><p>Reality and evidence constraints.</p>
+	<li><p>Humor as an interaction mechanism.</p>
+	<li><p>Emotional pacing and adjustable conversational depth.</p>
+	<li><p>Explicit safety boundaries.</p>
+	<li><p>Separation of authoring, active, and debug modes.</p>
+	<li><p>Modular external resources.</p>
+</ul>
+<p>MIRROR is intended for reflective self-help, not diagnosis or
+treatment. Its safety intentions and stated boundaries should be
+represented accurately; the ontology itself does not establish
+clinical validation.</p>
+<p>The initial presentation should identify it as version 0.4, Second
+Sharpening Pass.</p>
+<h3 class="western">MOSS — Meta Ontological Structural Substrate</h3>
+<p><strong>Classification:</strong> Meta-ontology and architectural
+framework.</p>
+<p>MOSS describes a layered architecture for author-controlled,
+ontology-driven systems.</p>
+<p>Its components include:</p>
+<ul>
+	<li><p>IRISWeb.</p>
+	<li><p>IRISNexus.</p>
+	<li><p>XEROdoc.</p>
+	<li><p>IRISxero.</p>
+	<li><p>The MOSS Virtual Entity Model.</p>
+</ul>
+<p>Its central concerns include structural governance, deterministic
+artifact handling, content-addressed identity, transaction integrity,
+constrained LLM execution, and prevention of autonomous evolution.</p>
+<p>The presentation must distinguish between specified requirements,
+unresolved technical items, and referenced normative documents that
+are not included in the available material.</p>
+<p>The initial presentation should identify the supplied document as
+MOSS v1.02.</p>
+<h2 class="western">8.3 Catalog Growth</h2>
+<p>The catalog is expected to expand.</p>
+<p>It must not assume that all future ontologies will fit into the
+same narrow set of categories. Classification should be descriptive
+and flexible.</p>
+<p>The site should support cross-references between ontologies,
+methodologies, articles, and demonstrations.</p>
+<h1 class="western">9. Articles</h1>
+<p>The Articles section will contain shorter and more focused
+treatments of subjects related to operational ontology.</p>
+<p>Initial candidate subjects include:</p>
+<ul>
+	<li><p>The Natural-Language Bottleneck.</p>
+	<li><p>Ontology as an Application's Operational Structure.</p>
+	<li><p>The Xenomorphic Pattern.</p>
+	<li><p>Ontology-Backed Compute.</p>
+	<li><p>Author-Controlled Ontology Evolution.</p>
+	<li><p>Sensory and Event-Driven Operational Workflows.</p>
+	<li><p>Humor as a Structured Conversational Mechanism.</p>
+	<li><p>The Relationship Between Ontology and Application Memory.</p>
+</ul>
+<p>These are proposed subjects, not yet completed articles.</p>
+<p>Articles should be independently readable and may reference more
+detailed ontology presentations and white papers.</p>
+<h1 class="western">10. Tutorials</h1>
+<p>Tutorials should help visitors understand how to work with
+operational ontologies.</p>
+<p>Initial candidate tutorial areas include:</p>
+<ul>
+	<li><p>Understanding an operational ontology.</p>
+	<li><p>Developing a small ad hoc ontology.</p>
+	<li><p>Extending an existing ontology.</p>
+	<li><p>Using an ontology to guide an application.</p>
+	<li><p>Building a state-driven assistant.</p>
+	<li><p>Designing workflows with explicit constraints.</p>
+	<li><p>Preserving application structure across LLM sessions.</p>
+	<li><p>Understanding ontology serialization and restoration.</p>
+</ul>
+<p>Tutorials should be added as substantive instructional material
+becomes available. The initial prototype need not pretend that
+unfinished tutorials exist.</p>
+<h1 class="western">11. White Papers and Technical Documents</h1>
+<p>This section contains substantial documents that define, explain,
+or propose methodologies and architectures.</p>
+<h2 class="western">11.1 The Evolution of Operational Ontology</h2>
+<p>A conceptual and historical treatment of operational ontology, the
+natural-language bottleneck, Zero-Doc Intelligence, and Ontological
+Artifact Serialization.</p>
+<h2 class="western">11.2 MOSS</h2>
+<p>The technical white paper defining the MOSS meta-ontological
+structural substrate.</p>
+<h2 class="western">11.3 Ontological Artifact Serialization (OAS)</h2>
+<p>A proposed methodology for preserving, restoring, reconstructing,
+and evolving ontology-driven applications across sessions and
+execution environments.</p>
+<p>OAS distinguishes the project ontology, implementation artifacts,
+artifact registry, dependencies, validation, and lifecycle
+management.</p>
+<p>The supplied document is a proposed Version 1.0 technical white
+paper. Its reference architecture, proposed principles, and future
+research questions should remain distinguishable.</p>
+<h2 class="western">11.4 OWNC — Ontological Web Native Content</h2>
+<p>A white paper describing a method for specifying and generating
+websites from structured project information, with a generated
+single-file HTML implementation.</p>
+<p>OWNC is relevant as a website architecture and generation
+approach.</p>
+<p>For OperationalOntologies.com, the governing rule in Section 2
+takes precedence: this website's authoritative specification is this
+white paper. Any intermediate representation used by the ONC process
+must be derived from it rather than becoming a competing source of
+truth.</p>
+<h1 class="western">12. About</h1>
+<p>The About section should provide information about the purpose and
+authorship of OperationalOntologies.com.</p>
+<p>Its initial content should include:</p>
+<ul>
+	<li><p>Why the site exists.</p>
+	<li><p>What visitors can expect to find.</p>
+	<li><p>The site's approach to operational ontology.</p>
+	<li><p>Authorship and contact information when supplied.</p>
+</ul>
+<p>Specific biographical and contact details are not yet defined and
+should not be invented.</p>
+<h1 class="western">13. Relationships Between Productions</h1>
+<p>The site should not treat every production as an isolated page.</p>
+<p>A production may be related to other productions in several ways:</p>
+<ul>
+	<li><p>An article may explain an ontology.</p>
+	<li><p>A tutorial may teach how to use or extend an ontology.</p>
+	<li><p>A white paper may define the methodology behind an ontology.</p>
+	<li><p>A demonstration may show an ontology in operation.</p>
+	<li><p>A meta-ontology may govern the construction or behavior of
+	other ontologies.</p>
+	<li><p>A technical document may describe a lifecycle or
+	serialization method used by multiple applications.</p>
+</ul>
+<p>The site should support these relationships through cross-links
+and related-content references.</p>
+<p>Relationships should be explicit wherever possible, rather than
+inferred solely from similar names or subject matter.</p>
+<h1 class="western">14. Visual Design and User Experience</h1>
+<p>The website should communicate technical substance without
+appearing unnecessarily complicated.</p>
+<p>Initial design requirements:</p>
+<ul>
+	<li><p>Clear, readable typography.</p>
+	<li><p>Strong information hierarchy.</p>
+	<li><p>Responsive layout.</p>
+	<li><p>Consistent navigation.</p>
+	<li><p>Accessible color contrast.</p>
+	<li><p>Keyboard accessibility.</p>
+	<li><p>Visible focus states.</p>
+	<li><p>Appropriate support for light and dark display modes.</p>
+	<li><p>Reduced-motion awareness.</p>
+	<li><p>Readable presentation of technical material and code.</p>
+	<li><p>Clear distinctions between explanatory prose, technical
+	specifications, and examples.</p>
+</ul>
+<p>The visual system should be restrained and professional. It should
+support the content rather than compete with it.</p>
+<p>The ONC process may establish an initial visual implementation,
+but design changes must be reflected in this white paper.</p>
+<h1 class="western">15. Implementation and Generation Requirements</h1>
+<p>The ONC process should interpret this white paper and produce a
+functioning website implementation.</p>
+<p>The generated site should:</p>
+<ul>
+	<li><p>Implement the defined navigation.</p>
+	<li><p>Render the specified content and collections.</p>
+	<li><p>Support internal navigation.</p>
+	<li><p>Support responsive presentation.</p>
+	<li><p>Preserve the distinction between different production types.</p>
+	<li><p>Support code and structured technical content.</p>
+	<li><p>Provide appropriate page and collection layouts.</p>
+	<li><p>Avoid presenting unfinished material as completed content.</p>
+	<li><p>Preserve the relationship between content definitions and
+	their navigation entries.</p>
+</ul>
+<p>The generated HTML, CSS, and JavaScript should be treated as
+derived implementation artifacts.</p>
+<p>The website should not introduce substantive content, navigation
+destinations, or behavior that contradicts this specification.</p>
+<p>Where the white paper is incomplete or ambiguous, the initial
+implementation should use conservative defaults and make the
+limitation apparent rather than inventing substantive material.</p>
+<h1 class="western">16. External Content and Artifact Architecture</h1>
+<p>OperationalOntologies.com will support content and artifacts
+maintained outside the generated website, including files hosted in
+GitHub repositories.</p>
+<p>The purpose of this architecture is to separate the website's
+presentation and navigation from the actual source materials while
+allowing the site to discover, retrieve, and display those materials.</p>
+<p>The website should not require every article, ontology, technical
+document, or supporting resource to be embedded directly in its
+generated HTML.</p>
+<h2 class="western">16.1 Content Categories</h2>
+<p>External resources may include:</p>
+<ul>
+	<li><p>Articles and essays.</p>
+	<li><p>Ontology source files.</p>
+	<li><p>Meta-ontology specifications.</p>
+	<li><p>White papers and technical documents.</p>
+	<li><p>Tutorials.</p>
+	<li><p>Demonstration data.</p>
+	<li><p>Examples and sample applications.</p>
+	<li><p>Images and other supporting media.</p>
+	<li><p>Schemas, reference files, and downloadable artifacts.</p>
+</ul>
+<p>The actual content should remain in its designated external
+repository.</p>
+<h2 class="western">16.2 GitHub as a Content Repository</h2>
+<p>GitHub will serve as an initial hosting and version-control
+location for externally maintained productions and artifacts.</p>
+<p>The website should be able to retrieve publicly accessible content
+from designated GitHub repositories.</p>
+<p>The repository organization, file paths, and resource identifiers
+should be defined and documented so that the ONC process can locate
+resources consistently.</p>
+<p>The architecture should not assume that all resources will reside
+in one repository.</p>
+<h2 class="western">16.3 Content Registry and Discovery</h2>
+<p>The website should use a structured content registry or manifest
+to identify available external productions.</p>
+<p>The registry should provide, as applicable:</p>
+<ul>
+	<li><p>Stable production identifier.</p>
+	<li><p>Title.</p>
+	<li><p>Production type.</p>
+	<li><p>Description.</p>
+	<li><p>Version.</p>
+	<li><p>Publication or revision status.</p>
+	<li><p>Repository.</p>
+	<li><p>File path.</p>
+	<li><p>Retrieval location.</p>
+	<li><p>Associated images and other assets.</p>
+	<li><p>Related production identifiers.</p>
+	<li><p>Display and presentation metadata.</p>
+</ul>
+<p>The registry should allow new productions to be added without
+requiring the website's underlying navigation or rendering
+architecture to be redesigned.</p>
+<p>The ONC process should interpret the registry and the production
+definitions in this white paper to determine how resources are
+presented.</p>
+<h2 class="western">16.4 Retrieval of Actual Content</h2>
+<p>The website should retrieve the actual text or structured data of
+external productions when required.</p>
+<p>Examples include:</p>
+<ul>
+	<li><p>Retrieving an article's Markdown file and presenting it as a
+	readable web article.</p>
+	<li><p>Retrieving an ontology YAML or JSON file for display,
+	inspection, or download.</p>
+	<li><p>Retrieving a white paper and presenting its contents or
+	providing access to its original document.</p>
+	<li><p>Retrieving tutorial content and rendering it in the
+	appropriate tutorial layout.</p>
+</ul>
+<p>The website should preserve the distinction between the external
+source artifact and its rendered presentation.</p>
+<p>Where appropriate, visitors should be able to access the original
+GitHub file.</p>
+<h2 class="western">16.5 Asset Locations</h2>
+<p>Images and supporting assets may be maintained in GitHub
+repositories.</p>
+<p>The content registry or production metadata should identify the
+assets associated with each production.</p>
+<p>Asset references should use stable repository paths or retrieval
+locations.</p>
+<p>The implementation should support appropriate image formats,
+alternative text, captions, and other accessibility information when
+supplied.</p>
+<h2 class="western">16.6 Content and Presentation Separation</h2>
+<p>External files define the actual content of their respective
+productions.</p>
+<p>This white paper defines how the website discovers, organizes, and
+presents those productions.</p>
+<p>The distinction is:</p>
+<ul>
+	<li><p>This white paper governs the website's structure and
+	behavior.</p>
+	<li><p>The external production file supplies the production's actual
+	content.</p>
+	<li><p>The ONC process and generated website interpret and present
+	that content.</p>
+</ul>
+<p>External content must not be allowed to redefine the website's
+governing navigation or architecture merely by being retrieved.</p>
+<h2 class="western">16.7 Versioning and Updates</h2>
+<p>GitHub provides version history for externally maintained files.</p>
+<p>The website should be designed to accommodate updated content
+without requiring the entire site architecture to be rewritten.</p>
+<p>The implementation should define how it handles:</p>
+<ul>
+	<li><p>New content.</p>
+	<li><p>Revised content.</p>
+	<li><p>Renamed or moved files.</p>
+	<li><p>Removed resources.</p>
+	<li><p>Version-specific artifacts.</p>
+	<li><p>Links to particular releases or revisions.</p>
+</ul>
+<p>Where a production has an identified version, the presentation
+should display that version when the information is available.</p>
+<h2 class="western">16.8 Retrieval Failures</h2>
+<p>The website should handle unavailable or invalid external
+resources gracefully.</p>
+<p>Possible conditions include:</p>
+<ul>
+	<li><p>Repository unavailable.</p>
+	<li><p>File not found.</p>
+	<li><p>Invalid content format.</p>
+	<li><p>Malformed metadata.</p>
+	<li><p>Missing image or supporting asset.</p>
+	<li><p>Network or retrieval failure.</p>
+</ul>
+<p>The website should not silently substitute invented content.</p>
+<p>A suitable error or unavailable-resource message should be
+displayed while preserving the remainder of the site.</p>
+<h2 class="western">16.9 Security and Trust</h2>
+<p>External content should be treated as content, not as executable
+instructions.</p>
+<p>Retrieved Markdown, YAML, JSON, and other text formats must be
+handled according to their intended content type.</p>
+<p>The implementation should not execute arbitrary scripts obtained
+from an external content file.</p>
+<p>The website should use appropriate validation and rendering
+controls to prevent external content from compromising the generated
+site.</p>
+<h2 class="western">16.10 Initial Implementation</h2>
+<p>The initial prototype should demonstrate the complete retrieval
+path using a small number of actual GitHub-hosted files.</p>
+<p>At minimum, the demonstration should include:</p>
+<ol>
+	<li><p>An article stored as Markdown.</p>
+	<li><p>An ontology stored as YAML or JSON.</p>
+	<li><p>A content registry identifying both resources.</p>
+	<li><p>A generated website view that discovers and presents them.</p>
+	<li><p>A means of accessing the original source files.</p>
+</ol>
+<p>The initial architecture should remain extensible to additional
+repositories, production types, and supporting assets.</p>
+<p>The exact repository structure, manifest format, retrieval method,
+and caching behavior remain implementation decisions to be specified
+through the ONC interpretation and subsequent refinement.</p>
+<p><br/>
+<br/>
+
+</p>
+<h1 class="western"><br/>
+<br/>
+
+</h1>
+<h1 class="western"><br/>
+<br/>
+
+</h1>
+<h1 class="western">16B. Governance and Evolution</h1>
+<p>OperationalOntologies.com is intended to grow.</p>
+<p>The white paper must therefore be maintainable as the site
+expands.</p>
+<p>The governing change process is:</p>
+<ol>
+	<li><p>Identify the desired change.</p>
+	<li><p>Modify the relevant section of the white paper.</p>
+	<li><p>Review the specification for consistency and conflicting
+	definitions.</p>
+	<li><p>Submit the revised white paper to the ONC process.</p>
+	<li><p>Generate the revised website.</p>
+	<li><p>Review the result against the specification.</p>
+	<li><p>Correct discrepancies by revising the white paper and
+	regenerating.</p>
+</ol>
+<p>The white paper should preserve the distinction between:</p>
+<ul>
+	<li><p>Established requirements.</p>
+	<li><p>Proposed structures.</p>
+	<li><p>Illustrative examples.</p>
+	<li><p>Unresolved decisions.</p>
+	<li><p>Future possibilities.</p>
+</ul>
+<p>New productions should be added by defining their content and
+relationships in the appropriate sections, then defining their
+navigation placement in The Menus.</p>
+<p>The site should not require a redesign of its fundamental
+architecture every time a new ontology or article is added.</p>
+<h1 class="western">17. Open Decisions and Future Refinement</h1>
+<p>This version establishes a starting architecture, not a finished
+content strategy.</p>
+<p>The following matters remain open:</p>
+<ol>
+	<li><p>Final primary menu labels and ordering.</p>
+	<li><p>Whether Concepts should be a top-level menu or a subsection
+	of another area.</p>
+	<li><p>Whether meta-ontologies should have a dedicated catalog
+	grouping.</p>
+	<li><p>Whether demonstrations should become a separate top-level
+	production type or remain associated with ontologies and tutorials.</p>
+	<li><p>The precise metadata standard for individual productions.</p>
+	<li><p>The visual identity and final design system.</p>
+	<li><p>The detailed content of the Home and About pages.</p>
+	<li><p>The treatment of downloads and externally hosted artifacts.</p>
+	<li><p>The final relationships and cross-linking model.</p>
+	<li><p>Additional ontology examples and production types as the
+	catalog expands.</p>
+</ol>
+<p>These decisions should be made as the material and site
+requirements become clearer.</p>
+<h1 class="western">18. Governing Statement</h1>
+<p>OperationalOntologies.com is specified by this white paper.</p>
+<p>The white paper defines the site's content, navigation, structure,
+presentation requirements, and behavior. The ONC process interprets
+that specification and generates the website.</p>
+<p>The website is not independently authored or maintained. It is the
+operational expression of its specification.</p>
+<p><strong>The white paper is the source of truth. The website is its
+implementation.</strong></p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+</body>
+</html>
